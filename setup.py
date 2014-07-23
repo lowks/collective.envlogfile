@@ -22,7 +22,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'setuptools',
-        # -*- Extra requirements: -*-
+        'ZConfig',
     ],
     extras_require={'test': [
     ]},
