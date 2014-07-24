@@ -7,7 +7,7 @@ environment variables in the given log file path name.
 
 .. code:: python
 
-   path = self.section.path % os.enviro
+   path = self.section.path % os.environ
 
 Usage with `plone.recipe.zope2instance`_:
 
@@ -20,6 +20,6 @@ Usage with `plone.recipe.zope2instance`_:
    event-log-custom =
        %import collective.envlogfile
        <envlogfile>
-           path %(MYENV)s
+           path %(MY_ENV_FOLDER)s/instance.log
            level INFO
        </envlogfile>
