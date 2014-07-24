@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name='collective.envlogfile',
     version='1.0.1.dev0',
-    description='',
+    description='ZConfig logfile with environment variable interpolated path',
     long_description=(open('README.rst').read() + '\n' +
                       open('CHANGES.rst').read()),
     classifiers=[
